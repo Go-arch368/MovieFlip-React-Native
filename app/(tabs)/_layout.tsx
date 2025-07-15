@@ -20,7 +20,7 @@ const TabIcon = ({ focused, icon, title }: TabIconProps) => {
              >
              <Image  source={icon} tintColor="#151312" className="size-5"/>
              <Text className='text-secondary text-base font-semibold'>{title}</Text>
-            </ImageBackground>
+      </ImageBackground>
   )
 }
 return(
@@ -115,11 +115,6 @@ const _layout = () => {
         }}
         
        />
-
-       
-
-       
-
    </Tabs>
   )
 }
